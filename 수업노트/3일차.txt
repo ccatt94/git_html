@@ -1,0 +1,79 @@
+오디오 파일 삽입 & 재생
+<audio src="파일이름" controls="controls" loop="loop"></audio>
+속성 controls  = 재생 loop = 무한재생
+autoplay = 자동재생
+
+비디오 파일 삽입 & 재생
+<video src="파일이름" controls="controls"></video>
+    
+<video controls="controls">
+<source src="411.mp4">
+</video>
+
+두 코드 같은 의미
+
+폼태그 (form)
+이미 프로그래밍된 특수 기능하기 위한 태그로 분류
+
+화면 디스플레이 인라인, 블록 태그
+
+<form action="웹주소" method="get"> </form>
+method = get (인터넷주소에 값을 붙여 전달하는 방식)/ post 방식(헤더에 숨겨서 전송)
+
+INPUT BOX 인라인태그
+이름: <input type="text" name="uname"/>
+name 속성  input박스의 이름
+size 크기
+
+type 속성 
+text - 문자 
+password - 비밀번호(글자 그대로 들어가지않음)
+file - 파일첨부
+<input type="file" name="upic"/>
+radio 한개만 선택됨 name속성이 같아야 적용됨(그룹되는것과 비슷)
+<input type="radio" name="gender" value="m"/>남
+checkbox 여러개 선택 가능 checked 체크되있음
+<input type="checkbox" name="lan" value="kor" checked="checked">
+
+textarea 긴글 작성
+<textarea rows="5" cols="20">간단하게 입력하세요</textarea>
+select 선택 박스 하위에 option 으로 선택리스트 넣을 수 있음 , 한개만 선택 가능
+<select>
+                <option>KOREA(한국)</option>
+                <option>USA(미국)</option>
+                <option>JAPAN(일본)</option>
+                <option>CHINA(중국)</option>
+               </select>
+<select multiple="multiple"> 선택박스 전체가 보임
+
+<input type="submit" value="전송">
+전송버튼 누를 시 form action에 쓰인 웹주소로 모든 값 전송됨
+이 버튼이 form method에 영향을 줌
+
+<input type="reset" value="취소"> 폼태그 안 초기화
+
+div 태그 와 p 태그의 차이 = 여백
+둘 다 블럭 태그지만 p태그는 여백을 갖고 있음
+css꾸밀때 기본값으로 사용하기 쉬운 태그가 div 태그
+division의 약자로 각 HTML요소들을 묶어주는 역할
+웹사이트의 전체적 레이아웃을 만들 때 주로 사용됨
+
+span 태그 - 인라인태그
+<span style="color: blueviolet;">소년</span>이다.
+글자 색상 넣기 가능
+
+블록 태그 - 줄바꿈 ㅇ, 상하로 배치가능
+항상 새로운 라인에서 시작 
+인라인 태그 - 줄바꿈없이 이어 출력 , 좌우 배치 가능(한줄로 출력), 블록태그 내부에 삽입 가능
+
+시맨틱(의미) 태그
+div 태그에 + 의미
+'의미를 가지고 있는 tag'를 의미
+
+header
+nav
+section
+footer
+address
+
+
