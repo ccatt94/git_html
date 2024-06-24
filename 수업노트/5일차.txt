@@ -1,0 +1,82 @@
+폰트 크기 font-size
+ ul .menu{
+ } 
+----->ul 밑에있는 menu 를 칭함
+
+ul, .menu{
+}
+ul과 .menu 둘다를 칭함
+
+input[type=text]
+속성 선택자 : [ ]구현한 네모창안에서 보이는 텍스트 스타일 바꿈
+
+후손 및 자손 선택자
+div h1 후손 선택자
+div > h1 으로 부등호로 표현(자손 선택자)
+
+동위 선택자
++ 다음에 나오는것(1개)
+~ 형제의 끝까지(여러개)
+
+가상 클래스
+pseudo-class
+가상 요소 선택자
+pseudo-element
+
+가상(반응) 선택자
+(: , ::)
+마우스 올려뒀을때 속성 설정
+특정행동에 대한 선택 가능
+
+상태 선택자(가상 선택자 활용)
+input:focus
+input:enabled
+input:disabled
+
+list-style: none 리스트 스타일 없어짐
+padding 내부 공백
+
+같다      /* padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px; */
+
+
+            border-radius : 10px 10px 0 0;
+모서리 둥글게 - 시계방향으로 숫자 설정
+
+ul li:nth-child(2n+1) 홀수
+ul li:nth-child(2n) 짝수
+
+float 3차원으로 뜸
+부모의 오버플로우 히든 하면 float된걸 잡아들임
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
