@@ -1,0 +1,20 @@
+text-align 가운데 정렬
+line-height 글자 위아래 간격주기 (값 줄때 height값)
+
+margin: 0 auto - 중앙정렬
+
+px 가변단위
+% 가변단위
+em 폰트단위에 많이 쓰임 1.0em = 디폴트값
+기본 폰트크기 16px
+
+display 블록태그를 인라인태그 속성으로 바꿈
+display: inline-block 	float 속성과 같이 
+
+margin 외부여백	- 외부부터 늘어남
+padding 내부여백 - 패딩 입은것처럼 늘어남 = 크기 늘어남
+
+display: none	화면에서 완전 안보임
+visibility: hidden	해당영역의 공간만 남음
+
+opacity: 0~1 투명도
