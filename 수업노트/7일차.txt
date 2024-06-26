@@ -1,0 +1,47 @@
+margin 0 auto;	 /*가운데정렬*/
+- 좌우는 auto, 상하는 0
+= margin-top: 0;
+
+box model 전체 크기
+: 컨텐츠 크기 + padding 값 + border 값 + margin 값
+
+box-sizing: border-box;
+- border 값과 padding 값을 원래 컨텐츠 값에 포함시킴
+= 설정한 width와 height 값이 곧 요소 내부의 콘텐츠 크기
+width or height = (컨텐츠 크기 + padding 값 + border 값)
+
+box-sizing: content-box;
+디폴트값
+
+
+background-size: 50%
+면적이 아니라  사진의 크기를 줄임
+
+
+font-family: 폰트 이름;
+ttf 에서 폰트를 찾음
+따옴표 유무 차이 - 폰트 이름에 띄어쓰기가 있으면 따옴표로 묶어줘야댐
+
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+    </style>
+@import url();
+인터넷에서 폰트 다운 후
+
+        div:nth-child(1){
+            font-family: 'Nanum Myeongjo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+폰트 이름 넣어주기
+
+
+line-height: 50px;
+컨텐츠 여백 중앙정렬
+
+
+
+
+
+
+
+
+
