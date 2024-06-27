@@ -17,14 +17,17 @@
             color: yellow;
         }
 
-        #uid:focus{
-            border: 1px solid black;
+        input:focus{
+            border: 2px solid black;
             padding: 10px;
         }
-        /* input:enabled{
-            color: #00ff00;
+        input:enabled{
+            color: blue;
             font-weight: bold;
-        } */
+        }
+        input:disabled{
+            color: red
+        }
 
         #order div:first-child{
             font-weight: bold;
@@ -49,13 +52,15 @@
         </ul>
     </div>
 
-    <div>
+    <!-- <div>
         <input type="button" id="button" value="버튼">
         <input type="button" id="button" value="버튼">
-    </div>
+    </div> -->
     <br>
     <div>
-        이름: <input type="text" id="uid">
+        이름: <input type="text" id="uid"><br>
+        비밀번호: <input type="password" id="upw"><br>
+        닉네임: <input type="text" name="uname" value="abcd" disabled="disabled">
     </div>
 
     <br>
