@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        #container{
+            width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+        }
         header{
             background-color: #ccc;
             width: 800px;
             height: 50px;
         }
         #content{
-            border: 1px solid #ccc;
             width: 800px;
-            height: 300px;
+            height: 200px;
             position: relative;
         }
         #content :nth-child(1){
@@ -24,6 +28,7 @@
             position: absolute;
             top: 10px;
             left: 10px;
+            z-index: 10;
         }
         #content :nth-child(2){
             width: 100px;
@@ -43,16 +48,16 @@
 </head>
 <body>
     <div id="container">
-    <header>
-        HEADER
-    </header>
-    <div id="content">
-        <div>content1</div>
-        <div>content2</div>
-    </div>
-    <footer>
-        FOOTER
-    </footer>    
+        <header>
+            HEADER
+        </header>
+        <div id="content">
+            <div>content1</div>
+            <div>content2</div>
+        </div>
+        <footer>
+            FOOTER
+        </footer>    
     </div>
 </body>
 </html>

@@ -1,0 +1,16 @@
+폰트 크기와 폰트 지정 같이 하려면
+font: 14px '맑은 고딕' 써도됨
+
+position : absolute
+body가 기준이여서 margin 0 auto(중앙정렬)이 적용되지 않는다.
+
+z-index : 값;
+- 값이 클수록 위에 위치함
+
+inline-block 태그
+button, select 태그
+
+
+반응형
+vh 뷰포트 를 값으로 넣을 수 있다.
+각각의 화면 크기 = 뷰포트
