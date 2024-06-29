@@ -7,6 +7,7 @@
     <style>
         #container{
             font-family: "맑은 고딕";
+            font-size: 14px;
             border: 1px solid #ccc;
             width: 960px;
             margin: 0 auto;
@@ -22,20 +23,20 @@
         header h1{
             position: absolute;
             color: #ffc;
-            top: 90px;
+            top: 100px;
             right: 20px;
             font-size: 3em;
         }
         header h2{
             position: absolute;
             color: #ff0;
-            top: 160px;
+            top: 170px;
             right: 20px;
             font-size: 2em;
         }
         #nav{
             width: 960px;
-            height: 50px;
+            height: 60px;
             background-color: #271717;
             float: left;
         }
@@ -45,30 +46,42 @@
         #nav ul li{
             list-style: none;
             width: 50px;
+            margin-left: -50px;
             display: inline;
+            font-size: 1em;
         }
         #nav ul li a{
             text-decoration: none;
-            margin: 50px;
-            line-height: 50px;
+            margin: 90px;
+            line-height: 60px;
             color: #ffffff;
         }
         #nav ul li a:hover{
             color: yellow;
         }
         #content{
-            width: 600px;
-            padding: 10px;
+            width: 720px;
+            padding-left: 10px;
+            float: left;
+        }
+        #content h2{
+            font-size: 1.5em;
         }
         #content h3{
-            display: inline-block;
-        }
-        #content h4{
+            font-size: 1.2em;
             margin: 0;
         }
-        #content p{
-            font-size: 0.9em;
+        #content img{
+            margin-left: 10px;
         }
+        #banner{
+            width: 200px;
+            height: 550px;
+            background-color: #DFD;
+            float: right;
+            padding: 10px;
+        }
+        
     </style>
 </head>
 <body>
@@ -86,14 +99,16 @@
             </ul>
         </div>
         <div id="content">
-            <h3>요안도라 소개</h3>
-            <h4>¤ 요안도라는 게스트 하우스(Guest House) 형식의 농어촌 민박입니다</h4>
-            <p>성산의 날씨는 다음주 내내 높은 구름에 햇살 가득이라고 합니다. 목요일이면 섭씨 27도까지 오른다고 하지만, 늘 부는 바람이 쾌적한 균형을 잡아 마당에 마당에 나가 앉아 있는 시간이 많아질듯 합니다.</p>
+            <h2>요안도라 소개</h2>
+            <h3>¤ 요안도라는 게스트 하우스(Guest House) 형식의 농어촌 민박입니다</h3>
+            <p>성산의 날씨는 다음주 내내 높은 구름에 햇살 가득이라고 합니다. 목요일이면 섭씨 27도까지 오른다고 하지만, 늘 <br>
+                부는 바람이 쾌적한 균형을 잡아 마당에 마당에 나가 앉아 있는 시간이 많아질듯 합니다.</p>
             <p>오늘은 사진에 보이는 긴 돌담을 따라 들어오는 요안도레 올레 입구에 특곤색의 대문을 달았습니다.</p>
-            <p>내일은 두달 여동안 밖거리에 만든 데스트 하우스에 연백색의 황토 페인트를 칠할 예정입니다. 
-                그리고 이것저것 사소한 저이를 마치고 나면, 나이 드시고 젊고 한 미지의 새식구들을 설렘으로 만나고 함께하고, 도시의 바븐 생활로 소원해진 오래된 친구와의 우정을 이 제주에서 새롭게 열어나가기 위해 요안도라를 세상에 알리려고 합니다.</p>
+            <p>내일은 두달 여동안 밖거리에 만든 데스트 하우스에 연백색의 황토 페인트를 칠할 예정입니다. <br> 
+                그리고 이것저것 사소한 저이를 마치고 나면, 나이 드시고 젊고 한 미지의 새식구들을 설렘으로 만나고 함께하<br>
+                고, 도시의 바븐 생활로 소원해진 오래된 친구와의 우정을 이 제주에서 새롭게 열어나가기 위해 요안도라를 세상에 알리려고 합니다.</p>
             <img src="img/banner2.png" alt="">
-            </div>
+        </div>
         <div id="banner">
             <h3>¤ 알립니다</h3>
             <p>게스트하우스 예약은 전화 070-###-#### 로 직접 통화하시는게 가장 정확하고 빠릅니다. 인터넷 전화이므로 시외 전화 요금이 부과되지 않습니다.
