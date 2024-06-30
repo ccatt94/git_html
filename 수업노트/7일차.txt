@@ -7,11 +7,13 @@ box model 전체 크기
 
 box-sizing: border-box;
 - border 값과 padding 값을 원래 컨텐츠 값에 포함시킴
-= 설정한 width와 height 값이 곧 요소 내부의 콘텐츠 크기
-width or height = (컨텐츠 크기 + padding 값 + border 값)
+설정한 width와 height 값이 안쪽 여백과 테두리까지 포함
 
 box-sizing: content-box;
 디폴트값
+= 설정한 width와 height 값이 곧 요소 내부의 콘텐츠 크기
+width or height = (컨텐츠 크기 + padding 값 + border 값)
+
 
 
 background-size: 50%

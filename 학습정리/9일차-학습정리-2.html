@@ -26,6 +26,7 @@
             top: 100px;
             right: 20px;
             font-size: 3em;
+            text-shadow: 1px 2px 2px black;
         }
         header h2{
             position: absolute;
@@ -33,6 +34,7 @@
             top: 170px;
             right: 20px;
             font-size: 2em;
+            text-shadow: 1px 1px 1px black;
         }
         #nav{
             width: 960px;
@@ -46,9 +48,9 @@
         #nav ul li{
             list-style: none;
             width: 50px;
-            margin-left: -50px;
+            margin-left: -60px;
             display: inline;
-            font-size: 1em;
+            font-size: 1.1em;
         }
         #nav ul li a{
             text-decoration: none;
@@ -79,9 +81,28 @@
             height: 550px;
             background-color: #DFD;
             float: right;
-            padding: 10px;
+            padding: 20px 10px 0 10px;
         }
-        
+        #banner img{
+            border: 1px solid #ccc;
+            opacity: 0.5;
+            margin-bottom: 5px;
+        }
+        #banner img:hover{
+            opacity: 1;
+            border: 1px solid black;
+        }
+        footer{
+            background-color: #030;
+            clear: both;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            display: block;
+        }
+        address{
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -118,8 +139,10 @@
             <img src="img/4.jpg" alt="">
         </div>
         <footer>
+            <address>
             <p>제주특별자치도 남제주군 성산읍 수산리 000 번지 요안도라</p>
             <p>yoan##@naver.com</p>
+            </address>
             <p>Copyright ⓒ. All rights reserved.</p>
         </footer>
     </div>
