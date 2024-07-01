@@ -1,0 +1,99 @@
+em 부모요소 중첩시 글자 크기 계속 달라짐
+rem 크기 지정후 지정한 크기 기준으로 디폴트값이 바뀜 
+
+가변 그리드
+사진 가변
+      max-width: 100%;
+      height: auto;
+
+fluid 가변
+
+@media screen
+미디어 쿼리 테스트 시 f12누르고 
+dimensions: responsive로 바꾸기
+1024 768 320
+
+<link rel="stylesheet" href="css/style.css">
+css파일 불러오기
+
+바디에 style로 css 스타일 입힐 수 있음
+
+스타일 우선순위
+파일 < 스타일 < 바디 다이렉트
+
+
+부모쪽 flex스타일
+		flex-direction
+		flex-wrap
+		flex-flow
+		justify-content
+		align-items
+5가지 기억하기
+
+flex-direction: row(디폴트값) - 주축 결정
+row-reverse 가로 거꾸로
+column 세로
+column-reverse 세로 거꾸로
+
+flex-wrap: wrap 자식쪽 감싸서 화면 움직였을때 작아지지 않고 크기 그대로
+
+flex-wrap: nowrap; 디폴트값
+wrap-reverse 거꾸로
+
+flex-flow: row wrap;
+= flex-direction: row;
+flex-wrap: wrap-reverse;
+
+justify-content: center; - 중앙정렬
+justify-content: flex-start; - 디폴트값(왼쪽부터시작)
+justify-content: flex-start; - (오른쪽부터시작)
+
+★justify-content: space-around; - 중앙에서 간격 같게 정렬
+
+★justify-content: space-between;- 양쪽끝에서 간격같게 정렬
+
+height: 값;
+align-items : center; - 세로로 중앙정렬(교차축 정렬)
+
+            justify-content: center;
+            height: 300px;
+            align-items: center; ------ 정중앙정렬
+
+
+justify-content: space-between;
+flex-direction: column;
+-----세로 위아래 양끝 맞춰 가운데 정렬
+
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+------- 세로로 가운데 정렬
+
+
+
+
+
+자식쪽
+<div style="order: 3;">1</div> 순서 바꾸기
+<div style="flex-grow: 1;">1</div> 크기커짐
+<div style="flex-shrink: 0">3</div> 크기 줄임
+값이 0일시 줄이지 않음
+
+<div style="flex-basis: 500px;">4</div>
+최대 500px
+
+
+<div style="flex: 0 0 200px">2</div>
+
+grow		shrink	basis 값
+
+
+
+
+
+
+
+
+
+
+

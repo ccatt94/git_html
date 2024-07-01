@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper{
+            width: 96%;
+            border: 1px solid #ccc;
+            margin: 0 auto;
+            font-size: 1.5em;
+        }
+        header{
+            width: 100%;
+            height: 120px;
+            background-color: blue;
+            border-bottom: black;
+        }
+        .header-text{
+            color: #fff;
+            text-align: center;
+            line-height: 120px;
+        }
+        h1{
+            margin-top: 0;
+        }
+        section{
+            width: 62%;
+            height: 450px;
+            background-color: yellow;
+            text-align: center;
+            line-height: 450px;
+            font-weight: bold;
+            float: left;
+        }
+        aside{
+            width: 38%;
+            height: 450px;
+            background-color: green;
+            text-align: center;
+            line-height: 450px;
+            font-weight: bold;
+            float: left;
+        }
+        footer{
+            width: 100%;
+            height: 120px;
+            clear: both;
+            font-weight: bold;
+            float: left;
+            background-color: red;
+            text-align: center;
+            line-height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="header-text"><h1>가변 그리드 레이아웃</h1></header>
+        <section class="content">본문</section>
+        <aside class="side-bar">사이드바</aside>
+        <footer>푸터</footer>
+    </div>
+</body>
+</html>
