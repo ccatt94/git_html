@@ -1,0 +1,45 @@
+address 태그
+p태그 + 이탤릭체
+
+shift + alt + f - 코드 자동 정렬
+
+background-size: cover;
+지정한 사이즈보다 크게
+
+반응형 웹에 세로형은 px써도 무관
+
+gap 속성 - 플렉스로 정렬된곳에 마진을 줄때 사용할 수 있음
+- 요소와 요소 사이 마진(간격)을 줌
+
+
+이미지 가변형으로
+min-width: 75%;  
+min-height: 30%; 
+
+
+            display: flex;
+            flex-direction: column;
+            flex-grow: 2;
+이용해서 가변그리드 만들 수 있음
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
