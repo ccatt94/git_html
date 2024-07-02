@@ -1,0 +1,9 @@
+diff a/수업노트/10일차.txt b/수업노트/10일차.txt	(rejected hunks)
+@@ -46,7 +46,6 @@
+ 
+ justify-content: center; - 중앙정렬
+ justify-content: flex-start; - 디폴트값(왼쪽부터시작)
+-justify-content: flex-start; - (오른쪽부터시작)
+ justify-content: flex-end; - (오른쪽부터시작)
+ 
+ ★justify-content: space-around; - 중앙에서 간격 같게 정렬
