@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 500px;
+            height: 100px;
+            border: 1px solid #ccc;
+            margin: 0 auto;
+            display: flex;
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #ccc;
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+            line-height: 100px;
+            color: #fff;
+        }
+        div:nth-child(1){
+            background-color: rgb(152, 255, 120);
+        }
+        div:nth-child(2){
+            background-color: rgb(255, 170, 120);
+        }
+        div:nth-child(3){
+            background-color: rgb(120, 179, 255);
+        }
+
+        .row{
+            flex-direction: row;
+        }
+
+        .column{
+            flex-direction: column;
+            margin-bottom: 200px;
+        }
+
+        .row-reverse{
+            flex-direction: row-reverse;
+        }
+
+        .column-reverse{
+            flex-direction: column-reverse;
+            margin-top: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>flex-direction: row</h2>
+    <section class="row">
+        
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h2>flex-direction: column</h2>
+    <section class="column">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h2>flex-direction: row-reverse</h2>
+    <section class="row-reverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+
+    <h2>flex-direction: column-reverse</h2>
+    <section class="column-reverse">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+</body>
+
+</html>

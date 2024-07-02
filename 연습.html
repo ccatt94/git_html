@@ -5,54 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        #wrap{
+            width: 60%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
         header{
-            background-color: #ccc;
-            width: 800px;
-            height: 50px;
+            background-color: blue;
+            flex-grow: 2;
         }
-        #content{
-            border: 1px solid #ccc;
-            width: 800px;
+        section{
+            display: flex;
+            flex-grow: 2;
             height: 300px;
-            position: relative;
         }
-        #content :nth-child(1){
-            width: 100px;
-            height: 100px;
-            background-color: red;
-            border: 2px dashed green;
-            position: absolute;
-            top: 10px;
-            left: 10px;
-        }
-        #content :nth-child(2){
-            width: 100px;
-            height: 100px;
+
+        nav{
             background-color: yellow;
-            border: 2px dashed green;
-            position: absolute;
-            top: 50px;
-            left: 50px;
+            flex-grow: 2;
         }
+
+        aside{
+            background-color: green;
+            flex-grow: 1;
+        }
+
         footer{
-            background-color: #ccc;
-            width: 800px;
-            height: 50px;
+            background-color: red;
+            flex-grow: 2;
         }
-    </style>
+
+</style>
 </head>
 <body>
-    <div id="container">
-    <header>
-        HEADER
-    </header>
-    <div id="content">
-        <div>content1</div>
-        <div>content2</div>
-    </div>
-    <footer>
-        FOOTER
-    </footer>    
+    <div id="wrap">
+        <header>헤더</header>
+        <section>
+            <nav>본문</nav>
+            <aside>사이드바</aside>
+        </section>
+        <footer>푸터</footer>
     </div>
 </body>
 </html>
