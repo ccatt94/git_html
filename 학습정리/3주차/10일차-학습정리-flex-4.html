@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 60%;
+            height: 150px;
+            border: 1px solid #ccc;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        div{
+            width: 100px;
+            border: 1px solid #ccc;
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+            color: #fff;
+        }
+        div:nth-child(1){
+            background-color: rgb(152, 255, 120);
+            font-size: 1em;
+        }
+        div:nth-child(2){
+            background-color: rgb(255, 170, 120);
+            font-size: 4em;
+        }
+        div:nth-child(3){
+            background-color: rgb(120, 179, 255);
+        }
+        div:nth-child(4){
+            background-color: rgb(152, 255, 120);
+            font-size: 1em;
+        }
+        div:nth-child(5){
+            background-color: rgb(255, 170, 120);
+            font-size: 2.5em;
+        }
+        div:nth-child(6){
+            background-color: rgb(120, 179, 255);
+            font-size: 1.5em;
+        }
+
+
+        .stretch{
+            align-items: stretch;
+        }
+        .flex-start{
+            align-items: flex-start;
+        }
+
+        .flex-end{
+            align-items: flex-end;
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        .baseline{
+            align-items: baseline;
+        }
+        
+
+
+
+    </style>
+</head>
+
+<body>
+    <h2>align-items: stretch</h2>
+    <section class="stretch">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+    <h2>jalign-items: flex-start</h2>
+    <section class="flex-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+    <h2>align-items: flex-end</h2>
+    <section class="flex-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+    <h2>align-items: center</h2>
+    <section class="center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+    <h2>align-items: baseline</h2>
+    <section class="baseline">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+
+
+
+</body>
+
+</html>
