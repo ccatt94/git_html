@@ -15,6 +15,7 @@ table-hover - 테이블 위에 마우스 올렸을때 반응
 
 컨테이너로 감쌌을때 자식태그에서 float하게 되면
 감싸진게 없어지는데 그때 부모 태그에 overflow-hidden사용하여 다시 감싸기
+단점은 반응형이 아님 ☆
 
 navbar-brand 메뉴 폰트 굵게
 navbar-text 메뉴 폰트 기본 굵기
