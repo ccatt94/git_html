@@ -23,7 +23,8 @@
 
   <div class="container">
     <header>
-      <div class="row justify-content-between align-items-center border-bottom py-3">
+      <div class="border-bottom">
+      <div class="row justify-content-between align-items-center py-3">
         <div class="col-4"><a class="text-muted" href="#">Subscribe</a></div>
         <div class="col-4 text-center"><a class="text-dark blog-header-logo" href="#">Large</a></div>
         <div class="col-4 d-flex justify-content-end align-items-center">
@@ -31,7 +32,9 @@
           <a href="#" class="btn btn-outline-secondary btn-sm">Sign up</a>
         </div>
       </div>
-      <div>
+    </div>
+
+      <div class="border-bottom">
         <nav class="nav d-flex flex-nowrap justify-content-between overflow-hidden">
           <a class="p-2 link-dark" href="#">World</a>
           <a class="p-2 link-secondary" href="#">U.S</a>
@@ -48,8 +51,9 @@
         </nav>
       </div>
     </header>
+
     <main>
-      <section class="border bg-dark text-white p-4 p-md-5 mb-4 rounded-2">
+      <section class="bg-dark text-white mt-3 p-4 p-md-5 mb-4 rounded-2">
         <div class="col-md-6">
           <h1 class="display-5 fst-italic">Title of a longer featured blog post</h1>
           <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently
@@ -59,14 +63,14 @@
       </section>
 
       <section class="row">
-        <div class="col">
+        <div class="col-md-6">
           <div class="card mb-3">
             <div class="row g-0">
 
               <div class="col-lg-8">
                 <div class="card-body">
                   
-                  <h6 class="card-title mb-2"><strong>World</strong></h6>
+                  <h6 class="card-title mb-2 text-primary"><strong>World</strong></h6>
                   <h3 class="mb-0">Featured post</h3>
                   <p class="text-body-secondary mb-1">Nov 12</p>
                   <p class="card-text mb-3">This is a wider card with supporting text below as a natural lead-in to
@@ -75,20 +79,20 @@
                   </div>
               </div>              
               <div class="col-md-4 d-none d-lg-block">
-                <img style="height:240px;" src="profile.jpg" class="img-fluid rounded-end" alt="...">
+                <img style="height:260px;" src="profile.jpg" class="img-fluid rounded-end" alt="...">
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col">
+        <div class="col-md-6">
           <div class="card mb-3">
             <div class="row g-0">
               
               <div class="col-lg-8">
                 <div class="card-body">
                   
-                  <h6 class="card-title mb-2"><strong>Design</strong></h6>
+                  <h6 class="card-title mb-2 text-success"><strong>Design</strong></h6>
                   <h3 class="mb-0">Post title</h3>
                   <p class="text-body-secondary mb-1">Nov 11</p>
                   <p class="card-text mb-3">This is a wider card with supporting text below as a natural lead-in to
@@ -97,7 +101,7 @@
                   </div>
               </div>              
               <div class="col-md-4 d-none d-lg-block">
-                <img style="height:240px;" src="profile.jpg" class="img-fluid rounded-end" alt="...">
+                <img style="height:260px;" src="profile.jpg" class="img-fluid rounded-end" alt="...">
               </div>
             </div>
           </div>
@@ -105,15 +109,18 @@
       </section>
 
 
-      <section>
-        <div class="row">
-        <div class="col-md-8 py-3">
+        <div class="row g-5 pt-3">
+        <div class="col-md-8 ">
           <h3 class="fst-italic fw-bold border-bottom pb-3" style="font-family: 'Times New Roman', Times, serif; font-size: 1.8rem;">From the Firehose</h3>
-          <div class="">
-            <h1>Sample blog</h1>
+          <div class="border-bottom pb-3">
+            <h1 class="fw-bold mt-4">Sample blog post</h1>
+            <p class="text-secondary">January 1, 2021 by <a href="#">Mark</a></p>
+            <small style="font-size: 0.9rem;">This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</small>
           </div>
-        
-        
+
+          <div class="mt-3">
+          <small style="font-size: 0.9rem;">This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</small>
+          </div>
         
         
         </div>
@@ -122,12 +129,16 @@
 
 
         <div class="col-md-4">
-          <div class="bg-secondary bg-opacity-10 rounded-2 p-4 ">
+          <div class="position-sticky" style="top: 2rem;">
+          <div class="bg-secondary bg-opacity-10 rounded-2 p-4">
             <h5 class="fst-italic fw-bold" style="font-family: 'Times New Roman', Times, serif; font-size: 1.8rem;">About</h5>
-            <p>Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+            <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+          </div>
+          <h3 class="fst-italic fw-bold border-bottom py-3 pb-2" style="font-family: 'Times New Roman', Times, serif; font-size: 1.8rem;">Recent posts</h3>
+
           </div>
         </div>
-      </div>
+    </div>
 
 
 
@@ -139,7 +150,7 @@
     
     
     </main>
-
+</div>
 
 
 
